@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar+footer</title>
+    <link rel="stylesheet" href="../CSS/navbar+footer.css">
+    <link rel="stylesheet" href="../CSS/newAlbum.css">
+
+
+
+</head>
+<body>
+
+<header>
+    <div class="wrapper">
+
+    </div>
+</header>
+
+<div class="bodyDiv">
+
+    <h1>Opret Ny Album</h1>
+    <div id="formHandler">
+
+        <form id="postForm" action="http://localhost:8080/album/postData" method="post">
+
+            <label for="name">Titel</label><br>
+            <input type="text" id="name" name="title" placeholder=""><br>
+
+
+            <label for="">Artist</label><br>
+            <input type="text" id="" name="artist" placeholder=""><br>
+
+            <label for="">Genre</label><br>
+            <input type="text" id="" name="genre" placeholder=""><br><br>
+
+            <label for="">Tilgængelighed</label><br>
+            <select id="" name="availability">
+                <option value="AVAILABLE"> Tilgængelig</option>
+                <option value="UNAVAILABLE">Ikke Tilgængelig</option>
+            </select>
+
+            <button id="submitData" type="submit">Opret</button>
+        </form>
+
+    </div>
+
+</div>
+
+
+<script src="../JS/Album/newAlbum.js"></script>
+<script src="../JS/navbar+footer.js"></script>
+
+</body>
+</html>

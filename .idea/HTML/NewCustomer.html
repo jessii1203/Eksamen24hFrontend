@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar+footer</title>
+    <link rel="stylesheet" href="../CSS/navbar+footer.css">
+    <link rel="stylesheet" href="../CSS/newAlbum.css">
+
+
+
+</head>
+<body>
+
+<header>
+    <div class="wrapper">
+        <!-- navbar indholdet ligger i JS filen navbar+footer-->
+    </div>
+</header>
+
+<div class="bodyDiv">
+
+    <h1>Opret bruger</h1>
+    <div id="formHandler">
+
+        <form id="postForm" action="http://localhost:8080/customer/postData" method="post">
+
+            <label for="name">Navn</label><br>
+            <input type="text" id="name" name="name" placeholder=""><br>
+
+            <label for="">Email</label><br>
+            <input type="email" id="" name="email" placeholder=""><br>
+
+            <label for="">Telefon nummer</label><br>
+            <input type="text" id="" name="phoneNumber" placeholder=""><br><br>
+
+            <button id="submitData" type="submit">Opret</button>
+        </form>
+
+    </div>
+
+</div>
+
+
+<script src="../JS/navbar+footer.js"></script>
+<script src="../JS/Customer/NewCustomer.js"></script>
+
+</body>
+</html>

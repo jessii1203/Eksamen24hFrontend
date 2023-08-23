@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar+footer</title>
+    <link rel="stylesheet" href="../CSS/navbar+footer.css">
+    <link rel="stylesheet" href="../CSS/newAlbum.css">
+
+
+
+</head>
+<body>
+
+<header>
+    <div class="wrapper">
+        <!-- navbar indholdet ligger i JS filen navbar+footer-->
+    </div>
+</header>
+
+<div class="bodyDiv">
+
+    <h1>Album</h1>
+    <div id="formHandler">
+
+        <form id="postForm">
+
+            <label for="name">Titel</label><br>
+            <input class="updateInputField" type="text" id="title" name="title" placeholder=""><br>
+
+            <label for="">Artist</label><br>
+            <input class="updateInputField"  type="text" id="artist" name="artist" placeholder=""><br>
+
+            <label for="">Genre</label><br>
+            <input class="updateInputField"  type="text" id="genre" name="genre" placeholder=""><br><br>
+
+            <label for="">Tilgængelighed</label><br>
+            <select class="updateInputField"  id="availability" name="availability">
+                <option value="AVAILABLE"> Tilgængelig</option>
+                <option value="UNAVAILABLE">Ikke Tilgængelig</option>
+            </select>
+
+            <button id="updateBtn">Opret</button>
+        </form>
+
+        <button id="sletKnap">SLET</button>
+
+    </div>
+
+</div>
+
+
+<script src="../JS/navbar+footer.js"></script>
+
+<script src="../JS/Album/OneAlbum.js"></script>
+</body>
+</html>
