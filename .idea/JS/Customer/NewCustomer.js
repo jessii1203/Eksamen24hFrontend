@@ -17,7 +17,6 @@ async function submitData(event){
         const formData = new FormData(form)
         const newObject = Object.fromEntries(formData.entries())
 
-        console.log(newObject)
 
         const newObjectJsonString = JSON.stringify(newObject)
 

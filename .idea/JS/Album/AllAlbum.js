@@ -17,26 +17,6 @@ async function fetchData(){
 
 }
 
-function putDataInTable(data, index){
-
-
-
-    const tr = document.createElement("tr")
-
-    tr.innerHTML = //blot eksempler på hvad der kan stå i tabellen
-        "<td>" + data.id + "</td>" +
-        "<td>" + data.title + "</td>" +
-        "<td>" + data.artist + "</td>" +
-        "<td>" + data.genre + "</td>" +
-        "<td>" + data.availability + "</td>" +
-        "<td>" +
-        "<button class='dataRowBtn' id='rowBtn" + index + "' value='" + data + "'>vælg</button>"
-        + "</td>"
-
-    tableBody.appendChild(tr)
-
-}
-
 
 function putDataInTableWButton(data, index){
 

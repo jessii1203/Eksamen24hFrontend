@@ -4,28 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19637349-e7cb-4921-abfc-c8a19cb5646b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CSS/navbar+footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CSS/newAlbum.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CSS/oneAlbum.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CSS/tableStyling.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HTML/AllAlbums.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HTML/NewAlbum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HTML/NewCustomer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HTML/frontpage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HTML/oneAlbum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/JS/Album/AllAlbum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/JS/Album/OneAlbum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/JS/Album/newAlbum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/JS/Customer/NewCustomer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/JS/Reservation/NewReservtion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/JS/navbar+footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eksamen24hFrontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="19637349-e7cb-4921-abfc-c8a19cb5646b" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/.idea/HTML/AllReservations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/HTML/NewReservation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/JS/Reservation/AllReservations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HTML/frontpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HTML/frontpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HTML/oneAlbum.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HTML/oneAlbum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JS/Album/AllAlbum.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JS/Album/AllAlbum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JS/Customer/NewCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JS/Customer/NewCustomer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JS/Reservation/NewReservtion.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JS/Reservation/NewReservtion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JS/navbar+footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JS/navbar+footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +26,8 @@
       <list>
         <option value="package.json" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -83,8 +72,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692790367047</updated>
-      <workItem from="1692790368461" duration="12625000" />
+      <workItem from="1692790368461" duration="19347000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1692804214406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692804214406</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
